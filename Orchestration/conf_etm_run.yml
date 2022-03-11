@@ -1,0 +1,21 @@
+#products: ['etasw','srf','dd','netet', 'etasw5','etc','rain','snowmelt','snwpk','swe','swf','swi']
+
+#products: ['etasw', 'netet','etc']
+products: ['etasw']
+
+start_year: 2007
+end_year: 2007
+
+start_day: 12
+end_day: 365
+
+run_frequency: 'daily'
+
+unmosaicked_input: 'ws-out/CONUS/Run02_25_2022/conus_r50t5/'
+enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile5/'
+
+max_concurrent_containers: 3
+max_cpu_percent: 220
+min_memory_available: 10
+
+sleep_time: 5

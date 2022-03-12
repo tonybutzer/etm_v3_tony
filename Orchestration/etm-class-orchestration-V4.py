@@ -139,6 +139,7 @@ class Etm:
                         day = day + 1
                     else:
                         day = 1
+                        year_to_process = year_to_process + 1
                 else:
                     print("OK to Launch")
                     self._start_etm(str(year_to_process), product, day=0) ### start mosaic container

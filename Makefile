@@ -11,6 +11,9 @@ build:
 	docker build -t ${Image} .
 
 
+test_etasw:
+	docker run -it ${Image} python3 api_etm.py -i ws-out/CONUS/Run03_11_2022/conus_r50t9/ -o ws-enduser/CONUS/r50.0_tile9/ -y monthly etasw dummy
+
 test_etc:
 	docker run -it ${Image} python3 api_etm.py -i ws-out/CONUS/Run03_11_2022/conus_r50t9/ -o ws-enduser/CONUS/r50.0_tile9/ -y monthly etc dummy
 

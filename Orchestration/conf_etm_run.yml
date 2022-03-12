@@ -1,21 +1,21 @@
 #products: ['etasw','srf','dd','netet', 'etasw5','etc','rain','snowmelt','snwpk','swe','swf','swi']
 
 #products: ['etasw', 'netet','etc']
-products: ['etasw']
+products: ['srf']
 
-start_year: 2007
-end_year: 2007
+start_year: 2018
+end_year: 2020
 
-start_day: 12
-end_day: 365
+start_day: 1
+end_day: 366
 
 run_frequency: 'daily'
 
-unmosaicked_input: 'ws-out/CONUS/Run02_25_2022/conus_r50t5/'
-enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile5/'
+unmosaicked_input: 'ws-out/CONUS/Run03_01_2022/conus_r37t0/'
+enduser_cog_output: 'ws-enduser/CONUS/r37.0_tile0/'
 
-max_concurrent_containers: 3
+max_concurrent_containers: 41
 max_cpu_percent: 220
 min_memory_available: 10
 
-sleep_time: 5
+sleep_time: 1

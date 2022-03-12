@@ -9,8 +9,8 @@ from .cog_func import cog_create_from_tif
 from .s3_func import s3_push_delete_local
 
 def _xr_open_rasterio_retry(s3_file_name):
-    cnt=20
-    sleeptime=6
+    cnt=5
+    sleeptime=2
     while(cnt>0):
         try:
             da = xr.open_rasterio(s3_file_name)

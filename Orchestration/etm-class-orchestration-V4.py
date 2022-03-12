@@ -135,7 +135,7 @@ class Etm:
                     print('RUN daily style ')
                     print("OK to Launch")
                     self._start_etm(str(year_to_process), product, day=day) ### start mosaic container
-                    if day <= self.end_day:
+                    if day < self.end_day:
                         day = day + 1
                     else:
                         day = 1

@@ -127,9 +127,17 @@ class Mos_mosaic:
             tif_peers = self._return_peers(tif, subfolders)
             product = target_product
             bucket = self.bucket
-            ds = xr_build_mosaic_ds(bucket, product, tif_peers)
             primary_name = tif_peers[0]
+            ds = xr_build_mosaic_ds(bucket, product, tif_peers)
             xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
+            if not s3_exists(primary_name, self.out_prefix_path):
+                print('Creating Mosaic');
+                log_d('Creating Mosaic');
+                ds = xr_build_mosaic_ds(bucket, product, tif_peers)
+                xr_write_geotiff_from_ds(ds, primary_name, self.out_prefix_path)
+            else:
+                print(f'{primary_name} already EXISTS!')
+                log_d(f'{primary_name} already EXISTS!')
 
     def _do_one_year(self, target_year, subfolders):
         target_tifs = []

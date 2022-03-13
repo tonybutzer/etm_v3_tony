@@ -6,8 +6,8 @@ end_year: 2020
 
 run_frequency: 'monthly'
 
-unmosaicked_input: 'ws-out/CONUS/Run03_11_2022/conus_r50t9/'
-enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile9/'
+unmosaicked_input: 'ws-out/CONUS/Run02_17_2022/r50t7/'
+enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile7/'
 
 max_concurrent_containers: 6
 max_cpu_percent: 220

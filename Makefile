@@ -24,6 +24,7 @@ test_dd:
 run:
 	docker run -it ${Image} bash
 
+
 publish:
 	cat ~/token.txt
 	git add .

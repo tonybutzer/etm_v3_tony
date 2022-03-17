@@ -10,3 +10,7 @@ rn:
 mn:
 	docker system prune
 	python3 orchestrate-monthly-etm.py
+
+
+kill:
+	docker kill `docker ps -q`

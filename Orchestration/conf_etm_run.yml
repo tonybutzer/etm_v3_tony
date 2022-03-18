@@ -1,4 +1,4 @@
-products: ['etasw','srf','dd','netet','etc']
+products: ['dd','netet','etc']
 
 start_year: 2000
 end_year: 2020
@@ -8,10 +8,10 @@ end_day: 366
 
 run_frequency: 'yearly'
 
-unmosaicked_input: 'ws-out/CONUS/Run03_01_2022/conus_r37t0/'
-enduser_cog_output: 'ws-enduser/CONUS/r37.0_tile/'
+unmosaicked_input: 'ws-out/CONUS/Run02_25_2022/conus_r50t5/'
+enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile5/'
 
-max_concurrent_containers: 6
+max_concurrent_containers: 3
 max_cpu_percent: 220
 min_memory_available: 10
 

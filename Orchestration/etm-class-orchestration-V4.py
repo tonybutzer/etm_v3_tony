@@ -31,6 +31,7 @@ def return_available_memory():
     else:
         print('Low Memort Alert! ... Sleeping 60...');
         time.sleep(60)
+        avaliable_memory=0
     return float(available_memory)
 
 

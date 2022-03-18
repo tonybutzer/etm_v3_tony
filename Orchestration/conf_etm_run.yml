@@ -8,8 +8,8 @@ end_day: 366
 
 run_frequency: 'yearly'
 
-unmosaicked_input: 'ws-out/CONUS/Run02_25_2022/conus_r50t5/'
-enduser_cog_output: 'ws-enduser/CONUS/r50.0_tile5/'
+unmosaicked_input: 'ws-out/CONUS/Run03_07_2022/conus_r37t3/'
+enduser_cog_output: 'ws-enduser/CONUS/r37.0_tile3/'
 
 max_concurrent_containers: 3
 max_cpu_percent: 220

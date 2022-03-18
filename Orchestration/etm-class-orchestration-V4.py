@@ -26,7 +26,11 @@ def _return_mem_stat():
 def return_available_memory():
     used_free_shared_buf_avail = _return_mem_stat()
     a = re.split('\s+', used_free_shared_buf_avail)
-    available_memory = a[3].split('G')[0]
+    if 'G' in a[3]:
+        available_memory = a[3].split('G')[0]
+    else:
+        print('Low Memort Alert! ... Sleeping 60...');
+        time.sleep(60)
     return float(available_memory)
 
 

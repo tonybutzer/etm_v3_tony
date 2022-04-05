@@ -1,8 +1,27 @@
 import os
 import boto3
+from botocore.errorfactory import ClientError
 
 def s3_hello(person_name):
     print(f'Hello There Person: {person_name}')
+
+
+def s3_obj_exists(the_s3_object):
+    output = the_s3_object
+    the_bucket = output.split('/')[0]
+    the_key =  '/'.join(output.split('/')[1:])
+    s3 = boto3.client('s3')
+    retval=True
+    try:
+        print(f'Exists? {output} {the_bucket} {the_key}')
+        s3.head_object(Bucket=the_bucket, Key=the_key)
+    except ClientError:
+        print(f'Exists? FALSE')
+        retval=False
+
+    print(f'Exists? {retval}')
+    return(retval)
+
 
 def s3_push_delete_local(local_file, bucket, bucket_filepath):
     out_bucket = return_my_bucket(bucket_filepath)

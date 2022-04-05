@@ -6,22 +6,28 @@ import rasterio
 import xarray as xr
 import rioxarray
 from .cog_func import cog_create_from_tif
-from .s3_func import s3_push_delete_local
+from .s3_func import s3_push_delete_local, s3_obj_exists
 
 def _xr_open_rasterio_retry(s3_file_name):
-    cnt=5
-    sleeptime=2
-    while(cnt>0):
-        try:
-            da = xr.open_rasterio(s3_file_name)
-            print(f'SUCCESS _xr_open_rasterio_retry {s3_file_name}', flush=True)
-            return da
-        except rasterio.errors.RasterioIOError:
-                        print("Unexpected error:", sys.exc_info()[0])
-                        print('oops',cnt)
-                        print('oops',s3_file_name, flush=True)
-                        cnt = cnt - 1
-                        sleep(sleeptime)
+    #print(f'TEST exists _xr_open_rasterio_retry {s3_file_name}', flush=True)
+    my_s3_file_name = s3_file_name.replace('s3://', '')
+    if s3_obj_exists(my_s3_file_name):
+
+        cnt=5
+        sleeptime=2
+        while(cnt>0):
+            try:
+                da = xr.open_rasterio(s3_file_name)
+                print(f'SUCCESS _xr_open_rasterio_retry {s3_file_name}', flush=True)
+                return da
+            except rasterio.errors.RasterioIOError:
+                            print("Unexpected error:", sys.exc_info()[0])
+                            print('oops',cnt)
+                            print('oops',s3_file_name, flush=True)
+                            cnt = cnt - 1
+                            sleep(sleeptime)
+    else:
+        print(f'no such object {s3_file_name}')
 
 
 def xr_build_mosaic_ds(bucket ,product, tifs):
@@ -43,6 +49,7 @@ def xr_build_mosaic_ds(bucket ,product, tifs):
             print(tif, elapsed)
         except:
             print(f'FATAL SQUEEZE error on {tif}', flush=True)
+            return None
 
     try:
         DS = xr.merge(my_da_list)
@@ -51,7 +58,7 @@ def xr_build_mosaic_ds(bucket ,product, tifs):
         print(f'FATAL MERGE error on {tif}', flush=True)
 
 def xr_write_geotiff_from_ds(DS, primary_name, out_prefix_path):
-    print(DS)
+    #print(DS)
     print(primary_name)
     print(out_prefix_path)
 

@@ -13,13 +13,13 @@ def s3_obj_exists(the_s3_object):
     s3 = boto3.client('s3')
     retval=True
     try:
-        print(f'Exists? {output} {the_bucket} {the_key}')
+        #print(f'Exists? {output} {the_bucket} {the_key}')
         s3.head_object(Bucket=the_bucket, Key=the_key)
     except ClientError:
-        print(f'Exists? FALSE')
+        #print(f'Exists? FALSE')
         retval=False
 
-    print(f'Exists? {retval}')
+    #print(f'Exists? {retval}')
     return(retval)
 
 

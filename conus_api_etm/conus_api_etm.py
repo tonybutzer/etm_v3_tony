@@ -4,8 +4,6 @@ import os
 
 from etmLib.log_logger import log_init, log_d, log_p
 
-from etmLib.s3_func import s3_hello
-
 from etmLib.mos_mosaic_class import Mos_mosaic
 
 sys.path.append('.')

@@ -11,7 +11,8 @@ from .s3_func import s3_push_delete_local, s3_obj_exists
 def _xr_open_rasterio_retry(s3_file_name):
     #print(f'TEST exists _xr_open_rasterio_retry {s3_file_name}', flush=True)
     my_s3_file_name = s3_file_name.replace('s3://', '')
-    if s3_obj_exists(my_s3_file_name):
+    file_exists = True
+    if file_exists: #s3_obj_exists(my_s3_file_name):
 
         cnt=5
         sleeptime=2
@@ -35,7 +36,8 @@ def xr_build_mosaic_ds(bucket ,product, tifs):
     my_da_list =[]
     for tif in tifs:
         try:
-            da = _xr_open_rasterio_retry(f's3://{bucket}/'+tif)
+            #da = _xr_open_rasterio_retry(f's3://{bucket}/'+tif)
+            da = _xr_open_rasterio_retry(tif)
         except:
             print(f'error on {tif}', flush=True)
             print(f'FATAL error on {tif}', flush=True)

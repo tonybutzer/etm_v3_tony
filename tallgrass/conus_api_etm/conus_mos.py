@@ -3,15 +3,11 @@ from etmLib.log_logger import log_init, log_d, log_p
 from etmLib.s3_func import s3_list_pseudo_subdirs, s3_obj_exists
 from etmLib.xr_mosaic_func import xr_build_mosaic_ds, xr_write_geotiff_from_ds
 
-bucket = 'ws-enduser'
-out_prefix_path = 'ws-enduser/conus_complete/conus_mos/'  # it gets the "year" folder from the function
+#bucket = 'ws-enduser'
+out_prefix_path = '/caldera/projects/usgs/water/impd/butzer/'
 
 def _build_full_output_path(primary_name, out_prefix_path):
-    a = primary_name.split('/')
-    just_tif = a[-2] + '/' + a[-1]
-    local_tif = a[-1]
-    local_cog = 'COG_' + local_tif
-
+    just_tif = primary_name.split('/')[-1]
     output = out_prefix_path + just_tif
     print(f'OUTPUT=={output}')
 
@@ -27,8 +23,8 @@ def _do_just_one_day(self, product, target_year, day, subfolders):
         tifs = []
         day3d = f'{day:03d}'
         for fold in subfolders:
-            tif = f'{fold}{year}/{p}_{year}{day3d}.tif'
-            #print(tif)
+            tif = f'{fold}/{year}/{p}_{year}{day3d}.tif'
+            print(tif)
             tifs.append(tif)
 
         primary_name = tifs[0]  # first tif in list
@@ -36,8 +32,15 @@ def _do_just_one_day(self, product, target_year, day, subfolders):
         print(f'...{primary_name} is placed at: {out_prefix_path}')
         out_obj = _build_full_output_path(primary_name, out_prefix_path)
 
-        if not s3_obj_exists(out_obj):
+        print(f'Output Item = {out_obj}')
+        file_exists = False   # replace with stat fucntion
+        if not file_exists:
+            bucket='Nope'
             DS = xr_build_mosaic_ds(bucket, p, tifs)
+            print(DS)
+
+        return True
+'''
             # print(DS)
             if DS is not None:
                 xr_write_geotiff_from_ds(DS, primary_name, out_prefix_path)
@@ -47,9 +50,22 @@ def _do_just_one_day(self, product, target_year, day, subfolders):
                 print (f'No DS was created for {primary_name}')
         else:
                 print (f'{primary_name} ALREADY Mosaiced wu wei')
+'''
 
 
-
+import os
+def get_subfolders(prefix_path):
+ 
+    folders = []
+    rootdir = prefix_path
+    for file in os.listdir(rootdir):
+        d = os.path.join(rootdir, file)
+        if os.path.isdir(d):
+            print(d)
+            if 'tile' in d:
+                folders.append(d)
+    folders.sort()
+    return folders
 
 class Conus_mosaic:
 
@@ -72,13 +88,16 @@ class Conus_mosaic:
         else:
             in_prefix_with_slash = self.in_prefix_path
         log_d(in_prefix_with_slash)
-        subfolders,bucket = s3_list_pseudo_subdirs(in_prefix_with_slash)
-        subfolders = [ x for x in subfolders if "conus_mos" not in x ]
+        subfolders = get_subfolders(in_prefix_with_slash)
+        print("---"*20)
+        # for f in subfolders:
+            # print(f)
+
+
         target_year=self.year
         product = self.products[0]
-        for day in range(1,367):
+        for day in range(1,3):
             start = time.time()
             _do_just_one_day(self, product, target_year, day, subfolders)
             end = time.time()
             print(f'$$$$ MOSAIC took {end - start} SECONDS!')
-

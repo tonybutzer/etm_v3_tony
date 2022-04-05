@@ -1,0 +1,92 @@
+Script started on Tue 05 Apr 2022 03:34:36 PM CDT
+]0;butzer@igskmncnpshtl02:~/opt/etm_v3_tony/tallgrass/conus_api_etm[?1034h(base) [butzer@ml-0016 conus_api_etm]$ 
+]0;butzer@igskmncnpshtl02:~/opt/etm_v3_tony/tallgrass/conus_api_etm(base) [butzer@ml-0016 conus_api_etm]$ make test
+make[3]: Entering directory `/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm'
+python3 conus_api_etm.py  -y 2005 --in /caldera/projects/usgs/water/impd/skagone --out /caldera/projects/usgs/water/impd/butzer netet
+Traceback (most recent call last):
+  File "conus_api_etm.py", line 5, in <module>
+    from etmLib.log_logger import log_init, log_d, log_p
+ModuleNotFoundError: No module named 'etmLib'
+make[3]: *** [test] Error 1
+make[3]: Leaving directory `/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm'
+]0;butzer@igskmncnpshtl02:~/opt/etm_v3_tony/tallgrass/conus_api_etm(base) [butzer@ml-0016 conus_api_etm]$ conda activate pangeo
+]0;butzer@igskmncnpshtl02:~/opt/etm_v3_tony/tallgrass/conus_api_etm(pangeo) [butzer@ml-0016 conus_api_etm]$ conda activate pangeo[12Pmake test
+make[3]: Entering directory `/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm'
+python3 conus_api_etm.py  -y 2005 --in /caldera/projects/usgs/water/impd/skagone --out /caldera/projects/usgs/water/impd/butzer netet
+['netet']
+in /caldera/projects/usgs/water/impd/skagone
+out /caldera/projects/usgs/water/impd/butzer
+15:34:58 ET_MOSAIC DEBUG: this is how you call one of your functions
+15:34:58 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+15:34:58 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone and put it in /caldera/projects/usgs/water/impd/butzer for 2005
+15:34:58 ET_MOSAIC DEBUG: run_mosaic
+15:34:58 ET_MOSAIC DEBUG: Mosaic this product: netet
+15:34:58 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/
+/caldera/projects/usgs/water/impd/skagone/tarzip-WOTJE
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8
+/caldera/projects/usgs/water/impd/skagone/conus_ws_monthly
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6
+/caldera/projects/usgs/water/impd/skagone/bzip2-wzell
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+/caldera/projects/usgs/water/impd/skagone/tarzip-DRB
+------------------------------------------------------------
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9
+15:34:58 ET_MOSAIC DEBUG: justoneday 2005 1 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile02005/netet_2005001.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile02005/netet_2005001.tif is placed at: ws-enduser/conus_complete/conus_mos/
+OUTPUT==ws-enduser/conus_complete/conus_mos/r37.0_tile02005/netet_2005001.tif
+Traceback (most recent call last):
+  File "/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 63, in <module>
+    command_line_runner()
+  File "/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 55, in command_line_runner
+    mos.run_mosaic()
+  File "/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_mos.py", line 97, in run_mosaic
+    _do_just_one_day(self, product, target_year, day, subfolders)
+  File "/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_mos.py", line 39, in _do_just_one_day
+    if not s3_obj_exists(out_obj):
+  File "/home/butzer/opt/etm_v3_tony/tallgrass/etmLib/etmLib/s3_func.py", line 17, in s3_obj_exists
+    s3.head_object(Bucket=the_bucket, Key=the_key)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/client.py", line 401, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/client.py", line 717, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/client.py", line 737, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/endpoint.py", line 107, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/endpoint.py", line 180, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/endpoint.py", line 120, in create_request
+    self._event_emitter.emit(event_name, request=request,
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/hooks.py", line 358, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/hooks.py", line 229, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/hooks.py", line 212, in _emit
+    response = handler(**kwargs)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/signers.py", line 95, in handler
+    return self.sign(operation_name, request)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/signers.py", line 167, in sign
+    auth.add_auth(request)
+  File "/home/butzer/.local/lib/python3.9/site-packages/botocore/auth.py", line 401, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+make[3]: *** [test] Error 1
+make[3]: Leaving directory `/home/butzer/opt/etm_v3_tony/tallgrass/conus_api_etm'
+]0;butzer@igskmncnpshtl02:~/opt/etm_v3_tony/tallgrass/conus_api_etm(pangeo) [butzer@ml-0016 conus_api_etm]$ exit
+
+Script done on Tue 05 Apr 2022 03:35:25 PM CDT

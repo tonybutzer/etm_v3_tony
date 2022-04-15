@@ -1,7 +1,12 @@
 import time
+import os
+from os.path import exists
+
+
 from etmLib.log_logger import log_init, log_d, log_p
 from etmLib.s3_func import s3_list_pseudo_subdirs, s3_obj_exists
 from etmLib.xr_mosaic_func import xr_build_mosaic_ds, xr_write_geotiff_from_ds
+from etmLib.cog_func import cog_create_from_tif
 
 #bucket = 'ws-enduser'
 out_prefix_path = '/caldera/projects/usgs/water/impd/butzer/'
@@ -12,6 +17,43 @@ def _build_full_output_path(primary_name, out_prefix_path):
     print(f'OUTPUT=={output}')
 
     return output
+
+
+def _file_already_here(path_to_file):
+	return exists(path_to_file)
+
+def caldera_write_geotiff_from_ds(DS, out_file_path):
+
+    print(out_file_path)
+
+    local_geotif = os.path.basename(out_file_path)
+
+    print("local Geotiff", local_geotif)
+    DS.rio.to_raster(out_file_path, compress='DEFLATE')
+
+    #DS.rio.to_raster(local_geotif)
+    #caldera_cog_create_from_tif(local_geotif, out_file_path)
+    #os.remove(local_geotif)
+
+
+def _run_command(cmd, verbose=False):
+    if verbose:
+        print(cmd)
+    result = os.system(cmd)
+    if result != 0:
+        raise Exception('command "%s" failed with code %d.' % (cmd, result))
+
+
+def cog_create_from_tif(src_tif,dst_cog):
+    command = f'rio cogeo create {src_tif} {dst_cog}'
+    _run_command(command)
+
+
+def caldera_cog_create_from_tif(local_geotif, caldera_cog):
+    command = f'rio cogeo create {local_geotif} {caldera_cog}'
+    print(command)
+    #_run_command(command)
+
 
 
 
@@ -33,27 +75,23 @@ def _do_just_one_day(self, product, target_year, day, subfolders):
         out_obj = _build_full_output_path(primary_name, out_prefix_path)
 
         print(f'Output Item = {out_obj}')
-        file_exists = False   # replace with stat fucntion
+        file_exists = _file_already_here(out_obj)
         if not file_exists:
             bucket='Nope'
             DS = xr_build_mosaic_ds(bucket, p, tifs)
             print(DS)
 
-        return True
-'''
             # print(DS)
             if DS is not None:
-                xr_write_geotiff_from_ds(DS, primary_name, out_prefix_path)
+                caldera_write_geotiff_from_ds(DS, out_obj)
                 print('Next one')
                 print('-------------------------------------------')
             else:
                 print (f'No DS was created for {primary_name}')
         else:
                 print (f'{primary_name} ALREADY Mosaiced wu wei')
-'''
 
 
-import os
 def get_subfolders(prefix_path):
  
     folders = []

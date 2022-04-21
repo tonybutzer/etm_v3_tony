@@ -2,12 +2,13 @@ import sys
 import argparse
 import os
 
-from etmLib.log_logger import log_init, log_d, log_p
 
-from etmLib.mos_mosaic_class import Mos_mosaic
+#from etmLib.mos_mosaic_class import Mos_mosaic
 
 sys.path.append('.')
 from conus_mos import Conus_mosaic
+from log_logger import log_init, log_d, log_p
+
 
 def _mkdir(directory):
     try:

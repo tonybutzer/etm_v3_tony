@@ -3,10 +3,10 @@ import os
 from os.path import exists
 
 
-from etmLib.log_logger import log_init, log_d, log_p
-from etmLib.s3_func import s3_list_pseudo_subdirs, s3_obj_exists
-from etmLib.xr_mosaic_func import xr_build_mosaic_ds, xr_write_geotiff_from_ds
-from etmLib.cog_func import cog_create_from_tif
+from log_logger import log_init, log_d, log_p
+from s3_func import s3_list_pseudo_subdirs, s3_obj_exists
+from xr_mosaic_func import xr_build_mosaic_ds, xr_write_geotiff_from_ds
+from cog_func import cog_create_from_tif
 
 #bucket = 'ws-enduser'
 out_prefix_path = '/caldera/projects/usgs/water/impd/butzer/'

@@ -1,0 +1,21 @@
+08:46:10 ET_MOSAIC DEBUG: this is how you call one of your functions
+08:46:10 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+08:46:10 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone and put it in /caldera/projects/usgs/water/impd/butzer/2013 for 2013
+08:46:10 ET_MOSAIC DEBUG: run_mosaic
+08:46:10 ET_MOSAIC DEBUG: Mosaic this product: netet
+08:46:10 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/
+08:46:10 ET_MOSAIC DEBUG: justoneday 2013 1 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+08:48:25 ET_MOSAIC DEBUG: justoneday 2013 2 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+08:51:26 ET_MOSAIC DEBUG: justoneday 2013 3 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+08:54:08 ET_MOSAIC DEBUG: justoneday 2013 4 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+08:56:37 ET_MOSAIC DEBUG: justoneday 2013 5 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+08:59:16 ET_MOSAIC DEBUG: justoneday 2013 6 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:01:52 ET_MOSAIC DEBUG: justoneday 2013 7 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:04:22 ET_MOSAIC DEBUG: justoneday 2013 8 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:06:59 ET_MOSAIC DEBUG: justoneday 2013 9 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:09:26 ET_MOSAIC DEBUG: justoneday 2013 10 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:11:43 ET_MOSAIC DEBUG: justoneday 2013 11 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:13:58 ET_MOSAIC DEBUG: justoneday 2013 12 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:16:12 ET_MOSAIC DEBUG: justoneday 2013 13 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:18:28 ET_MOSAIC DEBUG: justoneday 2013 14 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0

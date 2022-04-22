@@ -15,5 +15,5 @@
 source /home/butzer/miniconda3/bin/activate pangeo
 
 # run the mosaic
-python3 conus_api_etm.py  -y 2013 --in /caldera/projects/usgs/water/impd/skagone --out /caldera/projects/usgs/water/impd/butzer/2013 netet
+python3 conus_api_etm.py  -y 2010 --in /caldera/projects/usgs/water/impd/skagone --out /caldera/projects/usgs/water/impd/butzer/2010 netet
 

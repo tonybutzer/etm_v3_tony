@@ -1,0 +1,565 @@
+['netet']
+in /caldera/projects/usgs/water/impd/skagone
+out /caldera/projects/usgs/water/impd/butzer/2010
+/caldera/projects/usgs/water/impd/skagone/tarzip-WOTJE
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8
+/caldera/projects/usgs/water/impd/skagone/conus_ws_monthly
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2
+/caldera/projects/usgs/water/impd/skagone/forRS
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6
+/caldera/projects/usgs/water/impd/skagone/bzip2-wzell
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+/caldera/projects/usgs/water/impd/skagone/ea_climo
+/caldera/projects/usgs/water/impd/skagone/tarzip-DRB
+------------------------------------------------------------
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010001.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010001.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010001.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010001.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010001.tif 0.05614733695983887
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010001.tif 0.0966334342956543
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010001.tif 0.11050224304199219
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010001.tif 0.14653778076171875
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010001.tif 0.18356084823608398
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010001.tif 0.21190309524536133
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010001.tif 0.2409195899963379
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010001.tif 0.2931027412414551
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010001.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010001.tif 0.31447768211364746
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010001.tif
+local Geotiff netet_2010001.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 184.91925501823425 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010002.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010002.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010002.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010002.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010002.tif 0.025362491607666016
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010002.tif 0.052381277084350586
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010002.tif 0.09470033645629883
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010002.tif 0.11836886405944824
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010002.tif 0.1467292308807373
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010002.tif 0.1689157485961914
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010002.tif 0.6936061382293701
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010002.tif 0.7068150043487549
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010002.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010002.tif 0.7285363674163818
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010002.tif
+local Geotiff netet_2010002.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 149.82697558403015 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010003.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010003.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010003.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010003.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010003.tif 0.11084651947021484
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010003.tif 0.16556119918823242
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010003.tif 0.18880867958068848
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010003.tif 0.20815491676330566
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010003.tif 0.23410940170288086
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010003.tif 0.2597391605377197
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010003.tif 0.27841758728027344
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010003.tif 0.3009476661682129
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010003.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010003.tif 0.3238348960876465
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010003.tif
+local Geotiff netet_2010003.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 144.2401521205902 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010004.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010004.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010004.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010004.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010004.tif 0.019737720489501953
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010004.tif 0.04968380928039551
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010004.tif 0.0769960880279541
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010004.tif 0.09789419174194336
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010004.tif 0.11623907089233398
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010004.tif 0.14867377281188965
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010004.tif 0.1827070713043213
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010004.tif 0.2010500431060791
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010004.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010004.tif 0.21814322471618652
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010004.tif
+local Geotiff netet_2010004.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 149.8277599811554 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010005.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010005.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010005.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010005.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010005.tif 0.02813243865966797
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010005.tif 0.055516719818115234
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010005.tif 0.07919979095458984
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010005.tif 0.09806680679321289
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010005.tif 0.13242483139038086
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010005.tif 0.16246438026428223
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010005.tif 0.19372224807739258
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010005.tif 0.21119952201843262
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010005.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010005.tif 0.23226213455200195
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010005.tif
+local Geotiff netet_2010005.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 149.45127177238464 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010006.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010006.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010006.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010006.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010006.tif 0.04415535926818848
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010006.tif 0.0650014877319336
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010006.tif 0.08769345283508301
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010006.tif 0.10325050354003906
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010006.tif 0.12196016311645508
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010006.tif 0.13897991180419922
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010006.tif 0.15949130058288574
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010006.tif 0.1919858455657959
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010006.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010006.tif 0.21091961860656738
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010006.tif
+local Geotiff netet_2010006.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 150.2617528438568 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010007.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010007.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010007.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010007.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010007.tif 0.10353517532348633
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010007.tif 0.12312197685241699
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010007.tif 0.14098191261291504
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010007.tif 0.15402960777282715
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010007.tif 0.17910528182983398
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010007.tif 0.19420814514160156
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010007.tif 0.21605706214904785
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010007.tif 0.2301340103149414
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010007.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010007.tif 0.24970078468322754
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010007.tif
+local Geotiff netet_2010007.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 147.62091064453125 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010008.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010008.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010008.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010008.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010008.tif 0.08996868133544922
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010008.tif 0.11203861236572266
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010008.tif 0.13072705268859863
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010008.tif 0.14583134651184082
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010008.tif 0.1899111270904541
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010008.tif 0.23392128944396973
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010008.tif 0.29509854316711426
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010008.tif 0.31455445289611816
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010008.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010008.tif 0.44248032569885254
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010008.tif
+local Geotiff netet_2010008.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 145.40123414993286 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010009.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010009.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010009.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010009.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010009.tif 0.041176557540893555
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010009.tif 0.06220507621765137
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010009.tif 0.08452367782592773
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010009.tif 0.10118961334228516
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010009.tif 0.12286138534545898
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010009.tif 0.15037918090820312
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010009.tif 0.16616439819335938
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010009.tif 0.18596649169921875
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010009.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010009.tif 0.20301508903503418
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010009.tif
+local Geotiff netet_2010009.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 131.00288939476013 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010010.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010010.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010010.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010010.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010010.tif 0.011850357055664062
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010010.tif 0.0693354606628418
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010010.tif 0.09190225601196289
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010010.tif 0.10764956474304199
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010010.tif 0.14082741737365723
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010010.tif 0.1940298080444336
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010010.tif 0.22391629219055176
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010010.tif 0.2507514953613281
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010010.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010010.tif 0.2733783721923828
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010010.tif
+local Geotiff netet_2010010.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 128.29072999954224 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010011.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010011.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010011.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010011.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010011.tif 0.02701091766357422
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010011.tif 0.04957175254821777
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010011.tif 0.06893277168273926
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010011.tif 0.12026834487915039
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010011.tif 0.14866375923156738
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010011.tif 0.1672840118408203
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010011.tif 0.19126415252685547
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010011.tif 0.21326923370361328
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010011.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010011.tif 0.25601935386657715
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010011.tif
+local Geotiff netet_2010011.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 129.358717918396 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010012.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010012.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010012.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010012.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010012.tif 0.01275944709777832
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010012.tif 0.030734539031982422
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010012.tif 0.050824642181396484
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010012.tif 0.07733154296875
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010012.tif 0.10054945945739746
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010012.tif 0.13028454780578613
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010012.tif 0.15280604362487793
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010012.tif 0.17074823379516602
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010012.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010012.tif 0.1876659393310547
+<xarray.Dataset>
+Dimensions:  (x: 31245, y: 12978)
+Coordinates:
+  * x        (x) float64 -125.0 -125.0 -125.0 -125.0 ... -60.0 -60.0 -60.0
+  * y        (y) float64 23.0 23.0 23.0 23.01 23.01 ... 49.99 50.0 50.0 50.0
+Data variables:
+    netet    (y, x) float64 0.0 0.0 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0 0.0 0.0 0.0
+/caldera/projects/usgs/water/impd/butzer/netet_2010012.tif
+local Geotiff netet_2010012.tif
+Next one
+-------------------------------------------
+$$$$ MOSAIC took 131.28923320770264 SECONDS!
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010013.tif
+.../caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010013.tif is placed at: /caldera/projects/usgs/water/impd/butzer/
+OUTPUT==/caldera/projects/usgs/water/impd/butzer/netet_2010013.tif
+Output Item = /caldera/projects/usgs/water/impd/butzer/netet_2010013.tif
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile0/2010/netet_2010013.tif 0.016317367553710938
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile1/2010/netet_2010013.tif 0.0365910530090332
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile2/2010/netet_2010013.tif 0.049211740493774414
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r37.0_tile3/2010/netet_2010013.tif 0.07025337219238281
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile5/2010/netet_2010013.tif 0.10657691955566406
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile6/2010/netet_2010013.tif 0.12990188598632812
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile7/2010/netet_2010013.tif 0.1441633701324463
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010013.tif
+/caldera/projects/usgs/water/impd/skagone/r50.0_tile8/2010/netet_2010013.tif 0.16525554656982422
+SUCCESS _xr_open_rasterio_retry /caldera/projects/usgs/water/impd/skagone/r50.0_tile9/2010/netet_2010013.tif

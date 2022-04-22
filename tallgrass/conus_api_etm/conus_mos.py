@@ -9,7 +9,7 @@ from xr_mosaic_func import xr_build_mosaic_ds, xr_write_geotiff_from_ds
 from cog_func import cog_create_from_tif
 
 #bucket = 'ws-enduser'
-out_prefix_path = '/caldera/projects/usgs/water/impd/butzer/'
+#out_prefix_path = '/caldera/projects/usgs/water/impd/butzer/'
 
 def _build_full_output_path(primary_name, out_prefix_path):
     just_tif = primary_name.split('/')[-1]
@@ -57,7 +57,7 @@ def caldera_cog_create_from_tif(local_geotif, caldera_cog):
 
 
 
-def _do_just_one_day(self, product, target_year, day, subfolders):
+def _do_just_one_day(self, product, target_year, day, subfolders, out_prefix_path):
         log_d(f'justoneday {target_year} {day} {subfolders[0]}')
 
         year = target_year
@@ -134,8 +134,9 @@ class Conus_mosaic:
 
         target_year=self.year
         product = self.products[0]
+        out_prefix_path = self.out_prefix_path
         for day in range(1,366):
             start = time.time()
-            _do_just_one_day(self, product, target_year, day, subfolders)
+            _do_just_one_day(self, product, target_year, day, subfolders, out_prefix_path)
             end = time.time()
             print(f'$$$$ MOSAIC took {end - start} SECONDS!')

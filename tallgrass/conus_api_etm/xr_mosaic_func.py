@@ -69,7 +69,7 @@ def xr_write_geotiff_from_ds(DS, primary_name, out_prefix_path):
     local_tif = a[-1]
     local_cog = 'COG_' + local_tif
 
-    output = out_prefix_path + just_tif
+    output = os.path.join(out_prefix_path, just_tif)
     bucket = 'ws-out'
     print(f'OUTPUT=={output}')
     DS.rio.to_raster(local_tif)

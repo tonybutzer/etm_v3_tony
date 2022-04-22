@@ -13,7 +13,7 @@ from cog_func import cog_create_from_tif
 
 def _build_full_output_path(primary_name, out_prefix_path):
     just_tif = primary_name.split('/')[-1]
-    output = out_prefix_path + just_tif
+    output = os.path.join(out_prefix_path, just_tif)
     print(f'OUTPUT=={output}')
 
     return output

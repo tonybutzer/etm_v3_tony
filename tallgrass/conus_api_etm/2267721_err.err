@@ -19,3 +19,11 @@ Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a no
 09:13:58 ET_MOSAIC DEBUG: justoneday 2013 12 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
 09:16:12 ET_MOSAIC DEBUG: justoneday 2013 13 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
 09:18:28 ET_MOSAIC DEBUG: justoneday 2013 14 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:20:37 ET_MOSAIC DEBUG: justoneday 2013 15 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:22:48 ET_MOSAIC DEBUG: justoneday 2013 16 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:25:02 ET_MOSAIC DEBUG: justoneday 2013 17 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:27:19 ET_MOSAIC DEBUG: justoneday 2013 18 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:29:33 ET_MOSAIC DEBUG: justoneday 2013 19 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:31:55 ET_MOSAIC DEBUG: justoneday 2013 20 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:34:13 ET_MOSAIC DEBUG: justoneday 2013 21 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+09:36:32 ET_MOSAIC DEBUG: justoneday 2013 22 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0

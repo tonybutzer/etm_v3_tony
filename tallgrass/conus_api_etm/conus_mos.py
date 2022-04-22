@@ -134,7 +134,7 @@ class Conus_mosaic:
 
         target_year=self.year
         product = self.products[0]
-        for day in range(1,3):
+        for day in range(1,366):
             start = time.time()
             _do_just_one_day(self, product, target_year, day, subfolders)
             end = time.time()

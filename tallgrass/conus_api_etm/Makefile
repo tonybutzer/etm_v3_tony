@@ -7,3 +7,9 @@ test:
 
 steffi:
 	ls /caldera/projects/usgs/water/impd/skagone
+
+batch:
+	sbatch batch.sh
+
+sq:
+	squeue | grep butzer

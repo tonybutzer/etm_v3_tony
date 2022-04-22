@@ -52,6 +52,8 @@ def command_line_runner():
     year = args['year']
     out_prefix_path = args['out']
 
+    _mkdir(out_prefix_path)
+
     mos = Conus_mosaic(in_prefix_path, year, out_prefix_path, products)
     mos.run_mosaic()
     return True

@@ -12,4 +12,7 @@ batch:
 	sbatch batch.sh
 
 sq:
-	squeue | grep butzer
+	squeue | grep skagone
+
+run:
+	python3 conus_api_etm.py  -y 2000 --in /caldera/projects/usgs/water/impd/skagone --out /caldera/projects/usgs/water/impd/skagone/conus_mos_completed/2000 netet

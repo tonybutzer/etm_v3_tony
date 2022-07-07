@@ -1,0 +1,16 @@
+08:23:02 ET_MOSAIC DEBUG: this is how you call one of your functions
+Traceback (most recent call last):
+  File "/home/skagone/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 15, in _mkdir
+    os.stat(directory)
+FileNotFoundError: [Errno 2] No such file or directory: '/caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1984'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/skagone/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 66, in <module>
+    command_line_runner()
+  File "/home/skagone/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 55, in command_line_runner
+    _mkdir(out_prefix_path)
+  File "/home/skagone/opt/etm_v3_tony/tallgrass/conus_api_etm/conus_api_etm.py", line 17, in _mkdir
+    os.mkdir(directory)
+FileNotFoundError: [Errno 2] No such file or directory: '/caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1984'

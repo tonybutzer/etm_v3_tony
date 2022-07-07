@@ -1,0 +1,204 @@
+21:26:36 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:36 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:36 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1990 for 1990
+21:26:36 ET_MOSAIC DEBUG: run_mosaic
+21:26:36 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:36 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:39 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:39 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:39 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1991 for 1991
+21:26:39 ET_MOSAIC DEBUG: run_mosaic
+21:26:39 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:39 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:42 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:42 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:42 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1992 for 1992
+21:26:42 ET_MOSAIC DEBUG: run_mosaic
+21:26:42 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:42 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:44 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:44 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:44 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1993 for 1993
+21:26:44 ET_MOSAIC DEBUG: run_mosaic
+21:26:44 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:44 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:47 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:47 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:47 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1994 for 1994
+21:26:47 ET_MOSAIC DEBUG: run_mosaic
+21:26:47 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:47 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:49 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:49 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:49 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1995 for 1995
+21:26:49 ET_MOSAIC DEBUG: run_mosaic
+21:26:49 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:49 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:52 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:52 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:52 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1996 for 1996
+21:26:52 ET_MOSAIC DEBUG: run_mosaic
+21:26:52 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:52 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:54 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:54 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:54 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1997 for 1997
+21:26:54 ET_MOSAIC DEBUG: run_mosaic
+21:26:54 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:54 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:57 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:57 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:57 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1998 for 1998
+21:26:57 ET_MOSAIC DEBUG: run_mosaic
+21:26:57 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:57 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:26:59 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:26:59 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:26:59 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1999 for 1999
+21:26:59 ET_MOSAIC DEBUG: run_mosaic
+21:26:59 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:26:59 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:01 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:01 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:01 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2000 for 2000
+21:27:01 ET_MOSAIC DEBUG: run_mosaic
+21:27:01 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:01 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:04 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:04 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:04 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2001 for 2001
+21:27:04 ET_MOSAIC DEBUG: run_mosaic
+21:27:04 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:04 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:06 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:06 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:06 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2002 for 2002
+21:27:06 ET_MOSAIC DEBUG: run_mosaic
+21:27:06 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:06 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:09 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:09 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:09 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2003 for 2003
+21:27:09 ET_MOSAIC DEBUG: run_mosaic
+21:27:09 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:09 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:11 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:11 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:11 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2004 for 2004
+21:27:11 ET_MOSAIC DEBUG: run_mosaic
+21:27:11 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:11 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:14 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:14 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:14 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2005 for 2005
+21:27:14 ET_MOSAIC DEBUG: run_mosaic
+21:27:14 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:14 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:16 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:16 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:16 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2006 for 2006
+21:27:16 ET_MOSAIC DEBUG: run_mosaic
+21:27:16 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:16 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:19 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:19 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:19 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2007 for 2007
+21:27:19 ET_MOSAIC DEBUG: run_mosaic
+21:27:19 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:19 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:21 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:21 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:21 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2008 for 2008
+21:27:21 ET_MOSAIC DEBUG: run_mosaic
+21:27:21 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:21 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:24 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:24 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:24 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2009 for 2009
+21:27:24 ET_MOSAIC DEBUG: run_mosaic
+21:27:24 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:24 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+21:27:26 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:27:26 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:27:26 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2010 for 2010
+21:27:26 ET_MOSAIC DEBUG: run_mosaic
+21:27:26 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:27:26 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+21:39:16 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:39:16 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:39:16 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2011 for 2011
+21:39:16 ET_MOSAIC DEBUG: run_mosaic
+21:39:16 ET_MOSAIC DEBUG: Mosaic this product: etasw
+21:39:16 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+22:22:23 ET_MOSAIC DEBUG: this is how you call one of your functions
+22:22:23 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+22:22:23 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2012 for 2012
+22:22:23 ET_MOSAIC DEBUG: run_mosaic
+22:22:23 ET_MOSAIC DEBUG: Mosaic this product: etasw
+22:22:23 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+23:02:27 ET_MOSAIC DEBUG: this is how you call one of your functions
+23:02:27 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+23:02:27 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2013 for 2013
+23:02:27 ET_MOSAIC DEBUG: run_mosaic
+23:02:27 ET_MOSAIC DEBUG: Mosaic this product: etasw
+23:02:27 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+23:42:58 ET_MOSAIC DEBUG: this is how you call one of your functions
+23:42:58 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+23:42:58 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2014 for 2014
+23:42:58 ET_MOSAIC DEBUG: run_mosaic
+23:42:58 ET_MOSAIC DEBUG: Mosaic this product: etasw
+23:42:58 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+00:22:49 ET_MOSAIC DEBUG: this is how you call one of your functions
+00:22:49 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+00:22:49 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2015 for 2015
+00:22:49 ET_MOSAIC DEBUG: run_mosaic
+00:22:49 ET_MOSAIC DEBUG: Mosaic this product: etasw
+00:22:49 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+01:03:25 ET_MOSAIC DEBUG: this is how you call one of your functions
+01:03:25 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+01:03:25 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2016 for 2016
+01:03:25 ET_MOSAIC DEBUG: run_mosaic
+01:03:25 ET_MOSAIC DEBUG: Mosaic this product: etasw
+01:03:25 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+01:43:50 ET_MOSAIC DEBUG: this is how you call one of your functions
+01:43:50 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+01:43:50 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2017 for 2017
+01:43:50 ET_MOSAIC DEBUG: run_mosaic
+01:43:50 ET_MOSAIC DEBUG: Mosaic this product: etasw
+01:43:50 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+02:23:53 ET_MOSAIC DEBUG: this is how you call one of your functions
+02:23:53 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+02:23:53 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2018 for 2018
+02:23:53 ET_MOSAIC DEBUG: run_mosaic
+02:23:53 ET_MOSAIC DEBUG: Mosaic this product: etasw
+02:23:53 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+03:04:28 ET_MOSAIC DEBUG: this is how you call one of your functions
+03:04:28 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+03:04:28 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2019 for 2019
+03:04:28 ET_MOSAIC DEBUG: run_mosaic
+03:04:28 ET_MOSAIC DEBUG: Mosaic this product: etasw
+03:04:28 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+03:45:57 ET_MOSAIC DEBUG: this is how you call one of your functions
+03:45:57 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+03:45:57 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2020 for 2020
+03:45:57 ET_MOSAIC DEBUG: run_mosaic
+03:45:57 ET_MOSAIC DEBUG: Mosaic this product: etasw
+03:45:57 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+04:27:04 ET_MOSAIC DEBUG: this is how you call one of your functions
+04:27:04 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+04:27:04 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2021 for 2021
+04:27:04 ET_MOSAIC DEBUG: run_mosaic
+04:27:04 ET_MOSAIC DEBUG: Mosaic this product: etasw
+04:27:04 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.

@@ -1,0 +1,266 @@
+13:37:58 ET_MOSAIC DEBUG: this is how you call one of your functions
+13:37:58 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+13:37:58 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1984 for 1984
+13:37:58 ET_MOSAIC DEBUG: run_mosaic
+13:37:58 ET_MOSAIC DEBUG: Mosaic this product: netet
+13:37:58 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+14:07:52 ET_MOSAIC DEBUG: this is how you call one of your functions
+14:07:52 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+14:07:52 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1985 for 1985
+14:07:52 ET_MOSAIC DEBUG: run_mosaic
+14:07:52 ET_MOSAIC DEBUG: Mosaic this product: netet
+14:07:52 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+14:38:57 ET_MOSAIC DEBUG: this is how you call one of your functions
+14:38:57 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+14:38:57 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1986 for 1986
+14:38:57 ET_MOSAIC DEBUG: run_mosaic
+14:38:57 ET_MOSAIC DEBUG: Mosaic this product: netet
+14:38:57 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+15:09:39 ET_MOSAIC DEBUG: this is how you call one of your functions
+15:09:39 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+15:09:39 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1987 for 1987
+15:09:39 ET_MOSAIC DEBUG: run_mosaic
+15:09:39 ET_MOSAIC DEBUG: Mosaic this product: netet
+15:09:39 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+15:40:12 ET_MOSAIC DEBUG: this is how you call one of your functions
+15:40:12 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+15:40:12 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1988 for 1988
+15:40:12 ET_MOSAIC DEBUG: run_mosaic
+15:40:12 ET_MOSAIC DEBUG: Mosaic this product: netet
+15:40:12 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+16:10:52 ET_MOSAIC DEBUG: this is how you call one of your functions
+16:10:52 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+16:10:52 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1989 for 1989
+16:10:52 ET_MOSAIC DEBUG: run_mosaic
+16:10:52 ET_MOSAIC DEBUG: Mosaic this product: netet
+16:10:52 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+16:42:09 ET_MOSAIC DEBUG: this is how you call one of your functions
+16:42:09 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+16:42:09 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1990 for 1990
+16:42:09 ET_MOSAIC DEBUG: run_mosaic
+16:42:09 ET_MOSAIC DEBUG: Mosaic this product: netet
+16:42:09 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+17:13:06 ET_MOSAIC DEBUG: this is how you call one of your functions
+17:13:06 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+17:13:06 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1991 for 1991
+17:13:06 ET_MOSAIC DEBUG: run_mosaic
+17:13:06 ET_MOSAIC DEBUG: Mosaic this product: netet
+17:13:06 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+17:43:06 ET_MOSAIC DEBUG: this is how you call one of your functions
+17:43:06 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+17:43:06 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1992 for 1992
+17:43:06 ET_MOSAIC DEBUG: run_mosaic
+17:43:06 ET_MOSAIC DEBUG: Mosaic this product: netet
+17:43:06 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+18:13:09 ET_MOSAIC DEBUG: this is how you call one of your functions
+18:13:09 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+18:13:09 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1993 for 1993
+18:13:09 ET_MOSAIC DEBUG: run_mosaic
+18:13:09 ET_MOSAIC DEBUG: Mosaic this product: netet
+18:13:09 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+18:43:41 ET_MOSAIC DEBUG: this is how you call one of your functions
+18:43:41 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+18:43:41 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1994 for 1994
+18:43:41 ET_MOSAIC DEBUG: run_mosaic
+18:43:41 ET_MOSAIC DEBUG: Mosaic this product: netet
+18:43:41 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+19:14:21 ET_MOSAIC DEBUG: this is how you call one of your functions
+19:14:21 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+19:14:21 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1995 for 1995
+19:14:21 ET_MOSAIC DEBUG: run_mosaic
+19:14:21 ET_MOSAIC DEBUG: Mosaic this product: netet
+19:14:21 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+19:44:04 ET_MOSAIC DEBUG: this is how you call one of your functions
+19:44:04 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+19:44:04 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1996 for 1996
+19:44:04 ET_MOSAIC DEBUG: run_mosaic
+19:44:04 ET_MOSAIC DEBUG: Mosaic this product: netet
+19:44:04 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+20:13:59 ET_MOSAIC DEBUG: this is how you call one of your functions
+20:13:59 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+20:13:59 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1997 for 1997
+20:13:59 ET_MOSAIC DEBUG: run_mosaic
+20:13:59 ET_MOSAIC DEBUG: Mosaic this product: netet
+20:13:59 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+20:44:08 ET_MOSAIC DEBUG: this is how you call one of your functions
+20:44:08 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+20:44:08 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1998 for 1998
+20:44:08 ET_MOSAIC DEBUG: run_mosaic
+20:44:08 ET_MOSAIC DEBUG: Mosaic this product: netet
+20:44:08 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+21:14:18 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:14:18 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:14:18 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1999 for 1999
+21:14:18 ET_MOSAIC DEBUG: run_mosaic
+21:14:18 ET_MOSAIC DEBUG: Mosaic this product: netet
+21:14:18 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+21:50:21 ET_MOSAIC DEBUG: this is how you call one of your functions
+21:50:21 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+21:50:21 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2000 for 2000
+21:50:21 ET_MOSAIC DEBUG: run_mosaic
+21:50:21 ET_MOSAIC DEBUG: Mosaic this product: netet
+21:50:21 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+22:30:33 ET_MOSAIC DEBUG: this is how you call one of your functions
+22:30:33 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+22:30:33 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2001 for 2001
+22:30:33 ET_MOSAIC DEBUG: run_mosaic
+22:30:33 ET_MOSAIC DEBUG: Mosaic this product: netet
+22:30:33 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+23:10:35 ET_MOSAIC DEBUG: this is how you call one of your functions
+23:10:35 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+23:10:35 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2002 for 2002
+23:10:35 ET_MOSAIC DEBUG: run_mosaic
+23:10:35 ET_MOSAIC DEBUG: Mosaic this product: netet
+23:10:35 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+23:51:24 ET_MOSAIC DEBUG: this is how you call one of your functions
+23:51:24 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+23:51:24 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2003 for 2003
+23:51:24 ET_MOSAIC DEBUG: run_mosaic
+23:51:24 ET_MOSAIC DEBUG: Mosaic this product: netet
+23:51:24 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+00:31:09 ET_MOSAIC DEBUG: this is how you call one of your functions
+00:31:09 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+00:31:09 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2004 for 2004
+00:31:09 ET_MOSAIC DEBUG: run_mosaic
+00:31:09 ET_MOSAIC DEBUG: Mosaic this product: netet
+00:31:09 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+01:11:33 ET_MOSAIC DEBUG: this is how you call one of your functions
+01:11:33 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+01:11:33 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2005 for 2005
+01:11:33 ET_MOSAIC DEBUG: run_mosaic
+01:11:33 ET_MOSAIC DEBUG: Mosaic this product: netet
+01:11:33 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+01:52:01 ET_MOSAIC DEBUG: this is how you call one of your functions
+01:52:01 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+01:52:01 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2006 for 2006
+01:52:01 ET_MOSAIC DEBUG: run_mosaic
+01:52:01 ET_MOSAIC DEBUG: Mosaic this product: netet
+01:52:01 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+02:32:07 ET_MOSAIC DEBUG: this is how you call one of your functions
+02:32:07 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+02:32:07 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2007 for 2007
+02:32:07 ET_MOSAIC DEBUG: run_mosaic
+02:32:07 ET_MOSAIC DEBUG: Mosaic this product: netet
+02:32:07 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+03:13:00 ET_MOSAIC DEBUG: this is how you call one of your functions
+03:13:00 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+03:13:00 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2008 for 2008
+03:13:00 ET_MOSAIC DEBUG: run_mosaic
+03:13:00 ET_MOSAIC DEBUG: Mosaic this product: netet
+03:13:00 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+03:54:29 ET_MOSAIC DEBUG: this is how you call one of your functions
+03:54:29 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+03:54:29 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2009 for 2009
+03:54:29 ET_MOSAIC DEBUG: run_mosaic
+03:54:29 ET_MOSAIC DEBUG: Mosaic this product: netet
+03:54:29 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+04:35:24 ET_MOSAIC DEBUG: this is how you call one of your functions
+04:35:24 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+04:35:24 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2010 for 2010
+04:35:24 ET_MOSAIC DEBUG: run_mosaic
+04:35:24 ET_MOSAIC DEBUG: Mosaic this product: netet
+04:35:24 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+05:17:27 ET_MOSAIC DEBUG: this is how you call one of your functions
+05:17:27 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+05:17:27 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2011 for 2011
+05:17:27 ET_MOSAIC DEBUG: run_mosaic
+05:17:27 ET_MOSAIC DEBUG: Mosaic this product: netet
+05:17:27 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+05:53:43 ET_MOSAIC DEBUG: this is how you call one of your functions
+05:53:43 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+05:53:43 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2012 for 2012
+05:53:43 ET_MOSAIC DEBUG: run_mosaic
+05:53:43 ET_MOSAIC DEBUG: Mosaic this product: netet
+05:53:43 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+06:28:27 ET_MOSAIC DEBUG: this is how you call one of your functions
+06:28:27 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+06:28:27 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2013 for 2013
+06:28:27 ET_MOSAIC DEBUG: run_mosaic
+06:28:27 ET_MOSAIC DEBUG: Mosaic this product: netet
+06:28:27 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+07:02:50 ET_MOSAIC DEBUG: this is how you call one of your functions
+07:02:50 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+07:02:50 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2014 for 2014
+07:02:50 ET_MOSAIC DEBUG: run_mosaic
+07:02:50 ET_MOSAIC DEBUG: Mosaic this product: netet
+07:02:50 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+07:36:50 ET_MOSAIC DEBUG: this is how you call one of your functions
+07:36:50 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+07:36:50 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2015 for 2015
+07:36:50 ET_MOSAIC DEBUG: run_mosaic
+07:36:50 ET_MOSAIC DEBUG: Mosaic this product: netet
+07:36:50 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+08:10:35 ET_MOSAIC DEBUG: this is how you call one of your functions
+08:10:35 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+08:10:35 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2016 for 2016
+08:10:35 ET_MOSAIC DEBUG: run_mosaic
+08:10:35 ET_MOSAIC DEBUG: Mosaic this product: netet
+08:10:35 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+08:44:19 ET_MOSAIC DEBUG: this is how you call one of your functions
+08:44:19 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+08:44:19 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2017 for 2017
+08:44:19 ET_MOSAIC DEBUG: run_mosaic
+08:44:19 ET_MOSAIC DEBUG: Mosaic this product: netet
+08:44:19 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+09:18:49 ET_MOSAIC DEBUG: this is how you call one of your functions
+09:18:49 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+09:18:49 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2018 for 2018
+09:18:49 ET_MOSAIC DEBUG: run_mosaic
+09:18:49 ET_MOSAIC DEBUG: Mosaic this product: netet
+09:18:49 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+09:54:05 ET_MOSAIC DEBUG: this is how you call one of your functions
+09:54:05 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+09:54:05 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2019 for 2019
+09:54:05 ET_MOSAIC DEBUG: run_mosaic
+09:54:05 ET_MOSAIC DEBUG: Mosaic this product: netet
+09:54:05 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+10:29:04 ET_MOSAIC DEBUG: this is how you call one of your functions
+10:29:04 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+10:29:04 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2020 for 2020
+10:29:04 ET_MOSAIC DEBUG: run_mosaic
+10:29:04 ET_MOSAIC DEBUG: Mosaic this product: netet
+10:29:04 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+11:03:56 ET_MOSAIC DEBUG: this is how you call one of your functions
+11:03:56 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+11:03:56 ET_MOSAIC DEBUG: Mosaicking ['netet'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/2021 for 2021
+11:03:56 ET_MOSAIC DEBUG: run_mosaic
+11:03:56 ET_MOSAIC DEBUG: Mosaic this product: netet
+11:03:56 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/netet/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.

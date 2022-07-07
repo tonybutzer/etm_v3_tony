@@ -1,0 +1,35 @@
+09:23:52 ET_MOSAIC DEBUG: this is how you call one of your functions
+09:23:52 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+09:23:52 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1985 for 1985
+09:23:52 ET_MOSAIC DEBUG: run_mosaic
+09:23:52 ET_MOSAIC DEBUG: Mosaic this product: etasw
+09:23:52 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+09:55:46 ET_MOSAIC DEBUG: this is how you call one of your functions
+09:55:46 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+09:55:46 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1986 for 1986
+09:55:46 ET_MOSAIC DEBUG: run_mosaic
+09:55:46 ET_MOSAIC DEBUG: Mosaic this product: etasw
+09:55:46 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+10:28:22 ET_MOSAIC DEBUG: this is how you call one of your functions
+10:28:22 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+10:28:22 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1987 for 1987
+10:28:22 ET_MOSAIC DEBUG: run_mosaic
+10:28:22 ET_MOSAIC DEBUG: Mosaic this product: etasw
+10:28:22 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+11:01:45 ET_MOSAIC DEBUG: this is how you call one of your functions
+11:01:45 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+11:01:45 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1988 for 1988
+11:01:45 ET_MOSAIC DEBUG: run_mosaic
+11:01:45 ET_MOSAIC DEBUG: Mosaic this product: etasw
+11:01:45 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.
+11:35:25 ET_MOSAIC DEBUG: this is how you call one of your functions
+11:35:25 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+11:35:25 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw and put it in /caldera/projects/usgs/water/impd/skagone/2_MONTHLY_MOSAICS/1989 for 1989
+11:35:25 ET_MOSAIC DEBUG: run_mosaic
+11:35:25 ET_MOSAIC DEBUG: Mosaic this product: etasw
+11:35:25 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/1_MONTHLY_ONLY/etasw/
+Warning 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.

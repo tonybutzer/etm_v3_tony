@@ -1,3 +1,4 @@
+
 import time
 import os
 from os.path import exists
@@ -57,15 +58,53 @@ def caldera_cog_create_from_tif(local_geotif, caldera_cog):
 
 
 
-def _do_just_one_day(self, product, target_year, day, subfolders, out_prefix_path):
-        log_d(f'justoneday {target_year} {day} {subfolders[0]}')
+def _do_just_one_day(product, target_year, day, subfolders, out_prefix_path):
+        #log_d(f'justoneday {target_year} {day} {subfolders[0]}')
 
         year = target_year
         p = product
         tifs = []
         day3d = f'{day:03d}'
+        print(len(subfolders))
         for fold in subfolders:
+            print(fold)
             tif = f'{fold}/{year}/{p}_{year}{day3d}.tif'
+            print(tif)
+            tifs.append(tif)
+
+        primary_name = tifs[0]  # first tif in list
+        print(primary_name)
+        print(f'...{primary_name} is placed at: {out_prefix_path}')
+        out_obj = _build_full_output_path(primary_name, out_prefix_path)
+
+        print(f'Output Item = {out_obj}')
+        file_exists = _file_already_here(out_obj)
+        if not file_exists:
+            bucket='Nope'
+            DS = xr_build_mosaic_ds(bucket, p, tifs)
+            print(DS)
+
+            # print(DS)
+            if DS is not None:
+                caldera_write_geotiff_from_ds(DS, out_obj)
+                print('Next one')
+                print('-------------------------------------------')
+            else:
+                print (f'No DS was created for {primary_name}')
+        else:
+                print (f'{primary_name} ALREADY Mosaiced wu wei')
+
+def _do_just_one_month(product, target_year, day, subfolders, out_prefix_path):
+        #log_d(f'justoneday {target_year} {day} {subfolders[0]}')
+
+        year = target_year
+        p = product
+        tifs = []
+        day2d = f'{day:02d}'
+        print(len(subfolders))
+        for fold in subfolders:
+            print(fold)
+            tif = f'{fold}/{year}/{p}_{year}{day2d}.tif'
             print(tif)
             tifs.append(tif)
 
@@ -99,8 +138,9 @@ def get_subfolders(prefix_path):
     for file in os.listdir(rootdir):
         d = os.path.join(rootdir, file)
         if os.path.isdir(d):
+            #d = d + '/1984/'
             print(d)
-            if 'tile' in d:
+            if 'chip' in d:
                 folders.append(d)
     folders.sort()
     return folders
@@ -128,15 +168,22 @@ class Conus_mosaic:
         log_d(in_prefix_with_slash)
         subfolders = get_subfolders(in_prefix_with_slash)
         print("---"*20)
-        # for f in subfolders:
-            # print(f)
+        print('len',len(subfolders))
+
+        for f in subfolders:
+            print(f)
 
 
         target_year=self.year
         product = self.products[0]
         out_prefix_path = self.out_prefix_path
-        for day in range(1,367):
+        #for day in range(1,367):
+        for day in range(1,13):  # monthly hack - TONY
             start = time.time()
-            _do_just_one_day(self, product, target_year, day, subfolders, out_prefix_path)
+            print('DAY',day)
+            print(len(subfolders))
+            #_do_just_one_day(product, target_year, day, subfolders, out_prefix_path)
+            _do_just_one_month(product, target_year, day, subfolders, out_prefix_path)
             end = time.time()
             print(f'$$$$ MOSAIC took {end - start} SECONDS!')
+

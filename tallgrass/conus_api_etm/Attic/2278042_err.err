@@ -1,0 +1,53 @@
+07:45:37 ET_MOSAIC DEBUG: this is how you call one of your functions
+07:45:37 ET_MOSAIC DEBUG: hello from Conus_mosaic class
+07:45:37 ET_MOSAIC DEBUG: Mosaicking ['etasw'] in /caldera/projects/usgs/water/impd/skagone and put it in /caldera/projects/usgs/water/impd/skagone/conus_mos_completed/2017 for 2017
+07:45:37 ET_MOSAIC DEBUG: run_mosaic
+07:45:37 ET_MOSAIC DEBUG: Mosaic this product: etasw
+07:45:37 ET_MOSAIC DEBUG: /caldera/projects/usgs/water/impd/skagone/
+07:45:37 ET_MOSAIC DEBUG: justoneday 2017 1 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:45:47 ET_MOSAIC DEBUG: justoneday 2017 2 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:45:57 ET_MOSAIC DEBUG: justoneday 2017 3 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:07 ET_MOSAIC DEBUG: justoneday 2017 4 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:17 ET_MOSAIC DEBUG: justoneday 2017 5 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:27 ET_MOSAIC DEBUG: justoneday 2017 6 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:37 ET_MOSAIC DEBUG: justoneday 2017 7 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:47 ET_MOSAIC DEBUG: justoneday 2017 8 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:46:57 ET_MOSAIC DEBUG: justoneday 2017 9 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:07 ET_MOSAIC DEBUG: justoneday 2017 10 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:17 ET_MOSAIC DEBUG: justoneday 2017 11 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:28 ET_MOSAIC DEBUG: justoneday 2017 12 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:38 ET_MOSAIC DEBUG: justoneday 2017 13 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:48 ET_MOSAIC DEBUG: justoneday 2017 14 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:47:58 ET_MOSAIC DEBUG: justoneday 2017 15 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:08 ET_MOSAIC DEBUG: justoneday 2017 16 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:18 ET_MOSAIC DEBUG: justoneday 2017 17 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:28 ET_MOSAIC DEBUG: justoneday 2017 18 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:38 ET_MOSAIC DEBUG: justoneday 2017 19 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:48 ET_MOSAIC DEBUG: justoneday 2017 20 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:48:58 ET_MOSAIC DEBUG: justoneday 2017 21 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:08 ET_MOSAIC DEBUG: justoneday 2017 22 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:18 ET_MOSAIC DEBUG: justoneday 2017 23 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:28 ET_MOSAIC DEBUG: justoneday 2017 24 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:38 ET_MOSAIC DEBUG: justoneday 2017 25 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:48 ET_MOSAIC DEBUG: justoneday 2017 26 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:49:59 ET_MOSAIC DEBUG: justoneday 2017 27 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:09 ET_MOSAIC DEBUG: justoneday 2017 28 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:19 ET_MOSAIC DEBUG: justoneday 2017 29 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:29 ET_MOSAIC DEBUG: justoneday 2017 30 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:39 ET_MOSAIC DEBUG: justoneday 2017 31 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:49 ET_MOSAIC DEBUG: justoneday 2017 32 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:50:59 ET_MOSAIC DEBUG: justoneday 2017 33 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:51:09 ET_MOSAIC DEBUG: justoneday 2017 34 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:51:19 ET_MOSAIC DEBUG: justoneday 2017 35 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:51:29 ET_MOSAIC DEBUG: justoneday 2017 36 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:51:39 ET_MOSAIC DEBUG: justoneday 2017 37 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:51:51 ET_MOSAIC DEBUG: justoneday 2017 38 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:01 ET_MOSAIC DEBUG: justoneday 2017 39 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:11 ET_MOSAIC DEBUG: justoneday 2017 40 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:22 ET_MOSAIC DEBUG: justoneday 2017 41 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:32 ET_MOSAIC DEBUG: justoneday 2017 42 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:42 ET_MOSAIC DEBUG: justoneday 2017 43 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:52:52 ET_MOSAIC DEBUG: justoneday 2017 44 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:53:02 ET_MOSAIC DEBUG: justoneday 2017 45 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+07:53:12 ET_MOSAIC DEBUG: justoneday 2017 46 /caldera/projects/usgs/water/impd/skagone/r37.0_tile0
+slurmstepd: error: *** JOB 2278042 ON ml-0007 CANCELLED AT 2022-05-06T07:53:21 ***
